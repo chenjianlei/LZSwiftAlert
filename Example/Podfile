@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LZSwiftAlert_Example' do
+  pod 'LZSwiftAlert', :path => '../'
+
+  target 'LZSwiftAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
