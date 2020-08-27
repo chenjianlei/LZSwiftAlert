@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		16883AE95C098774081654B8 /* Pods-LZSwiftAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZSwiftAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LZSwiftAlert_Tests/Pods-LZSwiftAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		16CE77225B1A210127644F69 /* LZSwiftAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LZSwiftAlert.podspec; path = ../LZSwiftAlert.podspec; sourceTree = "<group>"; };
-		5920BA8489DCD3EAD9538A91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		16CE77225B1A210127644F69 /* LZSwiftAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LZSwiftAlert.podspec; path = ../LZSwiftAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5920BA8489DCD3EAD9538A91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LZSwiftAlert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZSwiftAlert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		7CCF2FC8F1DDAA772026BF9B /* Pods_LZSwiftAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZSwiftAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9C605F19717813BE78F8CE /* Pods-LZSwiftAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZSwiftAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-LZSwiftAlert_Example/Pods-LZSwiftAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A38DD6A371844F0808FEF23A /* Pods-LZSwiftAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZSwiftAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-LZSwiftAlert_Example/Pods-LZSwiftAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AD776A9A1399AF748F1B4200 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD776A9A1399AF748F1B4200 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B2062B3E1DDE4BA51C013916 /* Pods_LZSwiftAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZSwiftAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02AE4D0B9D2AED191CFAD42 /* Pods-LZSwiftAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZSwiftAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-LZSwiftAlert_Tests/Pods-LZSwiftAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				16883AE95C098774081654B8 /* Pods-LZSwiftAlert_Tests.debug.xcconfig */,
 				C02AE4D0B9D2AED191CFAD42 /* Pods-LZSwiftAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -314,10 +314,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LZSwiftAlert_Example/Pods-LZSwiftAlert_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LZSwiftAlert/LZSwiftAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LZSwiftAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

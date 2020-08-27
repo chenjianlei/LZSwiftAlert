@@ -1,0 +1,24 @@
+PODS:
+  - LZSwiftAlert (0.0.1):
+    - MBProgressHUD (= 1.2.0)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - LZSwiftAlert (from `../`)
+  - MBProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  LZSwiftAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LZSwiftAlert: bd458d493d0e27fd69b36d871ad2632c3ce02c65
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: 446f5776fe7e1472098d60351f52ecbd201cad58
+
+COCOAPODS: 1.8.4

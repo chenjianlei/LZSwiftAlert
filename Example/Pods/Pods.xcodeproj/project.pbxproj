@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06EC6EB7F90744EBC823955837F25F46 /* Pods-LZSwiftAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ED87CCDAFBFB504CCC1F30D350B5E8 /* Pods-LZSwiftAlert_Example-dummy.m */; };
+		1399EA7FA7C6C01F5BD730A06176CE01 /* Pods-LZSwiftAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CB83E7004CB8387B47C63169376EED /* Pods-LZSwiftAlert_Tests-dummy.m */; };
+		322F81C4074A0B7D78009287FE6AECE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
+		3AA25A4FBFB2F35B8A7BF9DB23CED31F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE8E83538B2326B7D57D7C3BC7199EA /* QuartzCore.framework */; };
+		3ABC179BDD22996382D3A0CE6149F8E9 /* Pods-LZSwiftAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A805EC683BC6E21E35CAF8051E510D9 /* Pods-LZSwiftAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C8F7C688EFCE880D828443A72A2C2CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2C9EBA77371B18B62DF65996D4A60 /* UIKit.framework */; };
+		66D6A85DB93C5869EB136DFE22F3C888 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 071047A4A08135548333750E08C06DA7 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F4EABBB70AF0EA36CA9DAE86D71798 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6152B0CD59AAF2557B3AA4375B61BEED /* MBProgressHUD.m */; };
+		88817B514B94639FF83DA659577B1463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261142ECD08AA96D02F8D4C1978B9F40 /* CoreGraphics.framework */; };
+		94777AF9C48A19BE24598A3783636F1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
+		9CDB5F10B49E5F0FD2EE8432F54A375C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3C732EE1AF4C9BDEE8C65FD99BED54 /* Alert.swift */; };
+		AA8236BA4DA9EE9DCDB6A2365164620F /* Pods-LZSwiftAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3065647C4A70F0176AB4B0DE65C65B24 /* Pods-LZSwiftAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3B1600F4982641C1AF841EA8EFF41A1 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E6584E1984A3CC79C447B818C6F79920 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2B86F5F93B4B0FDEC53F35A4507FCFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
+		CDAFB6CAFA3A4C2061B2AD8C6D7EDD80 /* LZSwiftAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D98DC82E156F42A2D0BF239F40229359 /* LZSwiftAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CCFC1C3E36BE03C8287CAEA999F31C /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 657678C8C3FB4725CEE10D8E8607F1EE /* MBProgressHUD-dummy.m */; };
+		D6F22CBE214C4F3E06DB4AB89D9DC5F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
+		F6E5E93BB66CA0A7E988E1AAA06AF76F /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */; };
+		FFDE803916F3E635EEE54FF503AA76D0 /* LZSwiftAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF904C90B342141232AC52BB7911F124 /* LZSwiftAlert-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		248CDF7424E07CE17658C2AAC15DA92B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		B60F79D7BD18794C1094F9DB9653F646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		CFBE88C8098B32ADBEA816BEE0DF2CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88D1F4466FD53FB349C226B79577475;
+			remoteInfo = LZSwiftAlert;
+		};
+		EDD2881AD1D79EE84250C05AC1A58E63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559BFCCDAFA3FD240A17878018503193;
+			remoteInfo = "Pods-LZSwiftAlert_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071047A4A08135548333750E08C06DA7 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		0BB7EF7F5FB21DF0ECEAB401989DB5EB /* Pods-LZSwiftAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZSwiftAlert_Tests.modulemap"; sourceTree = "<group>"; };
+		0F0838FB29025EFB52E4D891BE2E0176 /* LZSwiftAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZSwiftAlert-prefix.pch"; sourceTree = "<group>"; };
+		1983EDC760B7D93D53D3C53105F88A6E /* LZSwiftAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LZSwiftAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A44399E7B04CC6A8749714790FF648E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1B2031EA61B0DA447873F9FF10F20131 /* Pods-LZSwiftAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZSwiftAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2025DE5ECFFC6565AD755AA5057193B4 /* Pods-LZSwiftAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZSwiftAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		24AC93618DE078C1491C4E761D097759 /* Pods-LZSwiftAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZSwiftAlert_Example-Info.plist"; sourceTree = "<group>"; };
+		261142ECD08AA96D02F8D4C1978B9F40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2660FEE61F3DD7D918340CA68176FEF0 /* LZSwiftAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LZSwiftAlert-Info.plist"; sourceTree = "<group>"; };
+		3065647C4A70F0176AB4B0DE65C65B24 /* Pods-LZSwiftAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZSwiftAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
+		314A8B77E12FA60EC7A3A26BD6902E97 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		35ED87CCDAFBFB504CCC1F30D350B5E8 /* Pods-LZSwiftAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZSwiftAlert_Example-dummy.m"; sourceTree = "<group>"; };
+		37ABD8DCAA991ADD9AA4DDA40D85379D /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		38CB83E7004CB8387B47C63169376EED /* Pods-LZSwiftAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZSwiftAlert_Tests-dummy.m"; sourceTree = "<group>"; };
+		43F815FBB72F6820A8013DF7D63C0B20 /* Pods-LZSwiftAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZSwiftAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46D0F816C7305713FE5C8093C2C01814 /* Pods-LZSwiftAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZSwiftAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		510B0141106AAFCABE83D6F90BF5B147 /* LZSwiftAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZSwiftAlert.xcconfig; sourceTree = "<group>"; };
+		5A805EC683BC6E21E35CAF8051E510D9 /* Pods-LZSwiftAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZSwiftAlert_Example-umbrella.h"; sourceTree = "<group>"; };
+		6152B0CD59AAF2557B3AA4375B61BEED /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		619D2E1B8E7310902C83396D0E12E72A /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		61DF2CC880F1CBA887B5909D6AD453C5 /* Pods-LZSwiftAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZSwiftAlert_Tests-Info.plist"; sourceTree = "<group>"; };
+		657678C8C3FB4725CEE10D8E8607F1EE /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		663FFE7A8EC7226CBAFA77F51C038041 /* Pods-LZSwiftAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZSwiftAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A2137629B9A4CD310F0B81FEFB5092C /* Pods-LZSwiftAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZSwiftAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7E8B4F8B799A2604427AA604D674D74E /* Pods-LZSwiftAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZSwiftAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AF4B7EBE6CAAF719E5A664A8F08CFA /* Pods-LZSwiftAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZSwiftAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		850FF76381C7E65E1AF730D36F519546 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC73F8C5222FF0ED8569C41BBD3EC3A /* LZSwiftAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LZSwiftAlert.framework; path = LZSwiftAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B84333E6F5115E23EDC042E7B1B98B /* Pods-LZSwiftAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZSwiftAlert_Example.modulemap"; sourceTree = "<group>"; };
+		9C4947601D55DF350DCB87FAAC3F93D3 /* Pods_LZSwiftAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZSwiftAlert_Tests.framework; path = "Pods-LZSwiftAlert_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF3C732EE1AF4C9BDEE8C65FD99BED54 /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = LZSwiftAlert/Classes/Alert.swift; sourceTree = "<group>"; };
+		B11609C3B2046CDF70E3167D27E3B2FC /* Pods_LZSwiftAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZSwiftAlert_Example.framework; path = "Pods-LZSwiftAlert_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF904C90B342141232AC52BB7911F124 /* LZSwiftAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LZSwiftAlert-dummy.m"; sourceTree = "<group>"; };
+		D03B65632B63CEFAD56571963F4C62BC /* LZSwiftAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LZSwiftAlert.modulemap; sourceTree = "<group>"; };
+		D98DC82E156F42A2D0BF239F40229359 /* LZSwiftAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZSwiftAlert-umbrella.h"; sourceTree = "<group>"; };
+		DBE8E83538B2326B7D57D7C3BC7199EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DF3DEE487C04A6ACC39B0072B18F8A0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E4C2C9EBA77371B18B62DF65996D4A60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E6584E1984A3CC79C447B818C6F79920 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F270B548B167F43AC7048A63F21D2C86 /* Pods-LZSwiftAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZSwiftAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E99407E3B8FB21E4353F225FC9765C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94777AF9C48A19BE24598A3783636F1E /* Foundation.framework in Frameworks */,
+				F6E5E93BB66CA0A7E988E1AAA06AF76F /* MBProgressHUD.framework in Frameworks */,
+				5C8F7C688EFCE880D828443A72A2C2CE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D872E319CEF72B86DD3BD0054D0BDE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322F81C4074A0B7D78009287FE6AECE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E281628472CBC20EB5DFC96319876546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B86F5F93B4B0FDEC53F35A4507FCFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC936CA00FEB127506259F814615C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88817B514B94639FF83DA659577B1463 /* CoreGraphics.framework in Frameworks */,
+				D6F22CBE214C4F3E06DB4AB89D9DC5F7 /* Foundation.framework in Frameworks */,
+				3AA25A4FBFB2F35B8A7BF9DB23CED31F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03008EA7FA88E465302796FC1C541B71 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E6584E1984A3CC79C447B818C6F79920 /* MBProgressHUD.h */,
+				6152B0CD59AAF2557B3AA4375B61BEED /* MBProgressHUD.m */,
+				972C05D4ABF4AFE0028A9907AE29C8E3 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		29DDBE7D52495E980B8F3F6CA0DCC069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CC73F8C5222FF0ED8569C41BBD3EC3A /* LZSwiftAlert.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				B11609C3B2046CDF70E3167D27E3B2FC /* Pods_LZSwiftAlert_Example.framework */,
+				9C4947601D55DF350DCB87FAAC3F93D3 /* Pods_LZSwiftAlert_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339B22FCA060357614B3415FB758CE8C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED598F6CCD836744DFB5EFB3325938B3 /* LZSwiftAlert */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03008EA7FA88E465302796FC1C541B71 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6285AA7028FCE1EBB82D8C43A9CB209C /* Pods-LZSwiftAlert_Example */ = {
+			isa = PBXGroup;
+			children = (
+				94B84333E6F5115E23EDC042E7B1B98B /* Pods-LZSwiftAlert_Example.modulemap */,
+				663FFE7A8EC7226CBAFA77F51C038041 /* Pods-LZSwiftAlert_Example-acknowledgements.markdown */,
+				7E8B4F8B799A2604427AA604D674D74E /* Pods-LZSwiftAlert_Example-acknowledgements.plist */,
+				35ED87CCDAFBFB504CCC1F30D350B5E8 /* Pods-LZSwiftAlert_Example-dummy.m */,
+				6A2137629B9A4CD310F0B81FEFB5092C /* Pods-LZSwiftAlert_Example-frameworks.sh */,
+				24AC93618DE078C1491C4E761D097759 /* Pods-LZSwiftAlert_Example-Info.plist */,
+				5A805EC683BC6E21E35CAF8051E510D9 /* Pods-LZSwiftAlert_Example-umbrella.h */,
+				46D0F816C7305713FE5C8093C2C01814 /* Pods-LZSwiftAlert_Example.debug.xcconfig */,
+				F270B548B167F43AC7048A63F21D2C86 /* Pods-LZSwiftAlert_Example.release.xcconfig */,
+			);
+			name = "Pods-LZSwiftAlert_Example";
+			path = "Target Support Files/Pods-LZSwiftAlert_Example";
+			sourceTree = "<group>";
+		};
+		6E682DFA9239AF650B0EBF26441EA950 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				261142ECD08AA96D02F8D4C1978B9F40 /* CoreGraphics.framework */,
+				67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */,
+				DBE8E83538B2326B7D57D7C3BC7199EA /* QuartzCore.framework */,
+				E4C2C9EBA77371B18B62DF65996D4A60 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76827C092E8EBF9091B6AC192C1DCE48 /* Pods-LZSwiftAlert_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0BB7EF7F5FB21DF0ECEAB401989DB5EB /* Pods-LZSwiftAlert_Tests.modulemap */,
+				1B2031EA61B0DA447873F9FF10F20131 /* Pods-LZSwiftAlert_Tests-acknowledgements.markdown */,
+				43F815FBB72F6820A8013DF7D63C0B20 /* Pods-LZSwiftAlert_Tests-acknowledgements.plist */,
+				38CB83E7004CB8387B47C63169376EED /* Pods-LZSwiftAlert_Tests-dummy.m */,
+				61DF2CC880F1CBA887B5909D6AD453C5 /* Pods-LZSwiftAlert_Tests-Info.plist */,
+				3065647C4A70F0176AB4B0DE65C65B24 /* Pods-LZSwiftAlert_Tests-umbrella.h */,
+				2025DE5ECFFC6565AD755AA5057193B4 /* Pods-LZSwiftAlert_Tests.debug.xcconfig */,
+				82AF4B7EBE6CAAF719E5A664A8F08CFA /* Pods-LZSwiftAlert_Tests.release.xcconfig */,
+			);
+			name = "Pods-LZSwiftAlert_Tests";
+			path = "Target Support Files/Pods-LZSwiftAlert_Tests";
+			sourceTree = "<group>";
+		};
+		792D91FFF0020D2210CF9D5D11F59D39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */,
+				6E682DFA9239AF650B0EBF26441EA950 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		972C05D4ABF4AFE0028A9907AE29C8E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37ABD8DCAA991ADD9AA4DDA40D85379D /* MBProgressHUD.modulemap */,
+				850FF76381C7E65E1AF730D36F519546 /* MBProgressHUD.xcconfig */,
+				657678C8C3FB4725CEE10D8E8607F1EE /* MBProgressHUD-dummy.m */,
+				619D2E1B8E7310902C83396D0E12E72A /* MBProgressHUD-Info.plist */,
+				314A8B77E12FA60EC7A3A26BD6902E97 /* MBProgressHUD-prefix.pch */,
+				071047A4A08135548333750E08C06DA7 /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		B395753D80F6D7F708BFD5E58C0D1D6A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6285AA7028FCE1EBB82D8C43A9CB209C /* Pods-LZSwiftAlert_Example */,
+				76827C092E8EBF9091B6AC192C1DCE48 /* Pods-LZSwiftAlert_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				339B22FCA060357614B3415FB758CE8C /* Development Pods */,
+				792D91FFF0020D2210CF9D5D11F59D39 /* Frameworks */,
+				3F242479102E24C5847AB040CB8095A8 /* Pods */,
+				29DDBE7D52495E980B8F3F6CA0DCC069 /* Products */,
+				B395753D80F6D7F708BFD5E58C0D1D6A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E7DF59888AF18DA5C8ECB947D5985A82 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1A44399E7B04CC6A8749714790FF648E /* LICENSE */,
+				1983EDC760B7D93D53D3C53105F88A6E /* LZSwiftAlert.podspec */,
+				DF3DEE487C04A6ACC39B0072B18F8A0D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		ED598F6CCD836744DFB5EFB3325938B3 /* LZSwiftAlert */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C732EE1AF4C9BDEE8C65FD99BED54 /* Alert.swift */,
+				E7DF59888AF18DA5C8ECB947D5985A82 /* Pod */,
+				FFB38B74C7176B02015CB530A982BE6C /* Support Files */,
+			);
+			name = LZSwiftAlert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FFB38B74C7176B02015CB530A982BE6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03B65632B63CEFAD56571963F4C62BC /* LZSwiftAlert.modulemap */,
+				510B0141106AAFCABE83D6F90BF5B147 /* LZSwiftAlert.xcconfig */,
+				BF904C90B342141232AC52BB7911F124 /* LZSwiftAlert-dummy.m */,
+				2660FEE61F3DD7D918340CA68176FEF0 /* LZSwiftAlert-Info.plist */,
+				0F0838FB29025EFB52E4D891BE2E0176 /* LZSwiftAlert-prefix.pch */,
+				D98DC82E156F42A2D0BF239F40229359 /* LZSwiftAlert-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LZSwiftAlert";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EC3D7E54587F763571875FEE2806987 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABC179BDD22996382D3A0CE6149F8E9 /* Pods-LZSwiftAlert_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF858C5FFB0B7952370591AA4A6862E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D6A85DB93C5869EB136DFE22F3C888 /* MBProgressHUD-umbrella.h in Headers */,
+				B3B1600F4982641C1AF841EA8EFF41A1 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D005BD764348D68AF5B53010EDD4F5FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8236BA4DA9EE9DCDB6A2365164620F /* Pods-LZSwiftAlert_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79977BA2B0C87D0078347078D1E07E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAFB6CAFA3A4C2061B2AD8C6D7EDD80 /* LZSwiftAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CEFE10EF6FC510438D4CA15D8CA38CA /* Pods-LZSwiftAlert_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29C4C5BE514FFFC72F3DC16D20ADFB4 /* Build configuration list for PBXNativeTarget "Pods-LZSwiftAlert_Tests" */;
+			buildPhases = (
+				D005BD764348D68AF5B53010EDD4F5FE /* Headers */,
+				AE7D4C73494D8B6FC52EBD63D1BB2A2C /* Sources */,
+				E281628472CBC20EB5DFC96319876546 /* Frameworks */,
+				D0D2F2D0E3E7248BC5BA4AC946C93726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92941F1F5F9F7376EDF84906DAE15D23 /* PBXTargetDependency */,
+			);
+			name = "Pods-LZSwiftAlert_Tests";
+			productName = "Pods-LZSwiftAlert_Tests";
+			productReference = 9C4947601D55DF350DCB87FAAC3F93D3 /* Pods_LZSwiftAlert_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		559BFCCDAFA3FD240A17878018503193 /* Pods-LZSwiftAlert_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44F744112C967CB489B9F6A0D3BD872 /* Build configuration list for PBXNativeTarget "Pods-LZSwiftAlert_Example" */;
+			buildPhases = (
+				4EC3D7E54587F763571875FEE2806987 /* Headers */,
+				DC64434591B4752EBB861D5C0B6A5B13 /* Sources */,
+				7D872E319CEF72B86DD3BD0054D0BDE3 /* Frameworks */,
+				3171E195AA627F3E6A80DB43DA7F35BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12539221AFAF57219D5D533A313ABFEE /* PBXTargetDependency */,
+				F7AD9AAF562570129D1300E86B7104C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-LZSwiftAlert_Example";
+			productName = "Pods-LZSwiftAlert_Example";
+			productReference = B11609C3B2046CDF70E3167D27E3B2FC /* Pods_LZSwiftAlert_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A042CC3E41C8D52CE924944A7182F68 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				AF858C5FFB0B7952370591AA4A6862E1 /* Headers */,
+				7EB4D71B9A0FBB537BBEA8E93F9B2480 /* Sources */,
+				EFC936CA00FEB127506259F814615C0E /* Frameworks */,
+				CFF87459A9FEA824F159E065B1E15B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D88D1F4466FD53FB349C226B79577475 /* LZSwiftAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDC4D291F1EEEA33196B69079B43BA8 /* Build configuration list for PBXNativeTarget "LZSwiftAlert" */;
+			buildPhases = (
+				D79977BA2B0C87D0078347078D1E07E1 /* Headers */,
+				5AC9CAC3A41070B4577050B6EB6787C6 /* Sources */,
+				3E99407E3B8FB21E4353F225FC9765C9 /* Frameworks */,
+				79E5DFC211EB7F723AFF3227CFC38E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF860D4D33CA32DB953833C6B2FAA315 /* PBXTargetDependency */,
+			);
+			name = LZSwiftAlert;
+			productName = LZSwiftAlert;
+			productReference = 8CC73F8C5222FF0ED8569C41BBD3EC3A /* LZSwiftAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 29DDBE7D52495E980B8F3F6CA0DCC069 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88D1F4466FD53FB349C226B79577475 /* LZSwiftAlert */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				559BFCCDAFA3FD240A17878018503193 /* Pods-LZSwiftAlert_Example */,
+				0CEFE10EF6FC510438D4CA15D8CA38CA /* Pods-LZSwiftAlert_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3171E195AA627F3E6A80DB43DA7F35BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E5DFC211EB7F723AFF3227CFC38E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF87459A9FEA824F159E065B1E15B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D2F2D0E3E7248BC5BA4AC946C93726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AC9CAC3A41070B4577050B6EB6787C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDB5F10B49E5F0FD2EE8432F54A375C /* Alert.swift in Sources */,
+				FFDE803916F3E635EEE54FF503AA76D0 /* LZSwiftAlert-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB4D71B9A0FBB537BBEA8E93F9B2480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CCFC1C3E36BE03C8287CAEA999F31C /* MBProgressHUD-dummy.m in Sources */,
+				78F4EABBB70AF0EA36CA9DAE86D71798 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7D4C73494D8B6FC52EBD63D1BB2A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1399EA7FA7C6C01F5BD730A06176CE01 /* Pods-LZSwiftAlert_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC64434591B4752EBB861D5C0B6A5B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EC6EB7F90744EBC823955837F25F46 /* Pods-LZSwiftAlert_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12539221AFAF57219D5D533A313ABFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LZSwiftAlert;
+			target = D88D1F4466FD53FB349C226B79577475 /* LZSwiftAlert */;
+			targetProxy = CFBE88C8098B32ADBEA816BEE0DF2CE0 /* PBXContainerItemProxy */;
+		};
+		92941F1F5F9F7376EDF84906DAE15D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LZSwiftAlert_Example";
+			target = 559BFCCDAFA3FD240A17878018503193 /* Pods-LZSwiftAlert_Example */;
+			targetProxy = EDD2881AD1D79EE84250C05AC1A58E63 /* PBXContainerItemProxy */;
+		};
+		CF860D4D33CA32DB953833C6B2FAA315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = B60F79D7BD18794C1094F9DB9653F646 /* PBXContainerItemProxy */;
+		};
+		F7AD9AAF562570129D1300E86B7104C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 248CDF7424E07CE17658C2AAC15DA92B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F7682198630907130B09E9CDB433561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F270B548B167F43AC7048A63F21D2C86 /* Pods-LZSwiftAlert_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZSwiftAlert_Example/Pods-LZSwiftAlert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZSwiftAlert_Example/Pods-LZSwiftAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		176022B92EC4D169AECEB2CAD9190D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AF4B7EBE6CAAF719E5A664A8F08CFA /* Pods-LZSwiftAlert_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZSwiftAlert_Tests/Pods-LZSwiftAlert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZSwiftAlert_Tests/Pods-LZSwiftAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27E2B929A0B1F70892A1531F4336EF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2025DE5ECFFC6565AD755AA5057193B4 /* Pods-LZSwiftAlert_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZSwiftAlert_Tests/Pods-LZSwiftAlert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZSwiftAlert_Tests/Pods-LZSwiftAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F8FDF5596254F5876CF78070FEDBD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850FF76381C7E65E1AF730D36F519546 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F3579A5CD2F8B1AF12B39CCE9AB82EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850FF76381C7E65E1AF730D36F519546 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3F6F661E221F9BD9437E4D0497333CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510B0141106AAFCABE83D6F90BF5B147 /* LZSwiftAlert.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LZSwiftAlert/LZSwiftAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZSwiftAlert/LZSwiftAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LZSwiftAlert/LZSwiftAlert.modulemap";
+				PRODUCT_MODULE_NAME = LZSwiftAlert;
+				PRODUCT_NAME = LZSwiftAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E29D18B5AAEAD6789F0269BC7F4F0343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D0F816C7305713FE5C8093C2C01814 /* Pods-LZSwiftAlert_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZSwiftAlert_Example/Pods-LZSwiftAlert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZSwiftAlert_Example/Pods-LZSwiftAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD464C3A00B9D17F9C96009455069842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510B0141106AAFCABE83D6F90BF5B147 /* LZSwiftAlert.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LZSwiftAlert/LZSwiftAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZSwiftAlert/LZSwiftAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LZSwiftAlert/LZSwiftAlert.modulemap";
+				PRODUCT_MODULE_NAME = LZSwiftAlert;
+				PRODUCT_NAME = LZSwiftAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A042CC3E41C8D52CE924944A7182F68 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3579A5CD2F8B1AF12B39CCE9AB82EA /* Debug */,
+				2F8FDF5596254F5876CF78070FEDBD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDC4D291F1EEEA33196B69079B43BA8 /* Build configuration list for PBXNativeTarget "LZSwiftAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F6F661E221F9BD9437E4D0497333CC /* Debug */,
+				FD464C3A00B9D17F9C96009455069842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29C4C5BE514FFFC72F3DC16D20ADFB4 /* Build configuration list for PBXNativeTarget "Pods-LZSwiftAlert_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E2B929A0B1F70892A1531F4336EF80 /* Debug */,
+				176022B92EC4D169AECEB2CAD9190D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44F744112C967CB489B9F6A0D3BD872 /* Build configuration list for PBXNativeTarget "Pods-LZSwiftAlert_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29D18B5AAEAD6789F0269BC7F4F0343 /* Debug */,
+				0F7682198630907130B09E9CDB433561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

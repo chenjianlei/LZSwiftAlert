@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'LZSwiftAlert_Example' do
   pod 'LZSwiftAlert', :path => '../'
+  pod 'MBProgressHUD'
 
   target 'LZSwiftAlert_Tests' do
     inherit! :search_paths
