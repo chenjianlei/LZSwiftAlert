@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'LZSwiftAlert'
 ```
 
+### 0.0.1
+#### 更新
+ - 首次创建
+#### 修复
+
 ## Author
 
 chenjianlei, woshixiaolei@qq.com
